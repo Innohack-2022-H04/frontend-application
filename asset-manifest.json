@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/frontend-application/home/static/js/main.c7e753b3.chunk.js",
+    "main.js": "/frontend-application/home/static/js/main.e6f01afe.chunk.js",
     "runtime-main.js": "/frontend-application/home/static/js/runtime-main.4ec0252d.js",
     "static/css/2.b7de4913.chunk.css": "/frontend-application/home/static/css/2.b7de4913.chunk.css",
-    "static/js/2.f851ad99.chunk.js": "/frontend-application/home/static/js/2.f851ad99.chunk.js",
+    "static/js/2.8c8dd4cd.chunk.js": "/frontend-application/home/static/js/2.8c8dd4cd.chunk.js",
     "static/js/3.19337fe9.chunk.js": "/frontend-application/home/static/js/3.19337fe9.chunk.js",
     "static/js/4.4d31c30e.chunk.js": "/frontend-application/home/static/js/4.4d31c30e.chunk.js",
     "static/js/5.6fbf67cc.chunk.js": "/frontend-application/home/static/js/5.6fbf67cc.chunk.js",
     "index.html": "/frontend-application/home/index.html",
-    "static/js/2.f851ad99.chunk.js.LICENSE.txt": "/frontend-application/home/static/js/2.f851ad99.chunk.js.LICENSE.txt",
+    "static/js/2.8c8dd4cd.chunk.js.LICENSE.txt": "/frontend-application/home/static/js/2.8c8dd4cd.chunk.js.LICENSE.txt",
     "static/media/code-analysis.c3673b7d.svg": "/frontend-application/home/static/media/code-analysis.c3673b7d.svg",
     "static/media/cra-logo.2966aaf8.svg": "/frontend-application/home/static/media/cra-logo.2966aaf8.svg",
     "static/media/css.40ed3413.svg": "/frontend-application/home/static/media/css.40ed3413.svg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.4ec0252d.js",
     "static/css/2.b7de4913.chunk.css",
-    "static/js/2.f851ad99.chunk.js",
-    "static/js/main.c7e753b3.chunk.js"
+    "static/js/2.8c8dd4cd.chunk.js",
+    "static/js/main.e6f01afe.chunk.js"
   ]
 }
