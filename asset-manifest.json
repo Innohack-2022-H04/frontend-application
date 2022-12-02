@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.js": "/apps/home/static/js/main.a6d0b821.chunk.js",
+    "runtime-main.js": "/apps/home/static/js/runtime-main.88da3433.js",
+    "static/css/2.f9a148a1.chunk.css": "/apps/home/static/css/2.f9a148a1.chunk.css",
+    "static/js/2.f851ad99.chunk.js": "/apps/home/static/js/2.f851ad99.chunk.js",
+    "static/js/3.f4e1b34a.chunk.js": "/apps/home/static/js/3.f4e1b34a.chunk.js",
+    "static/js/4.4d31c30e.chunk.js": "/apps/home/static/js/4.4d31c30e.chunk.js",
+    "static/js/5.6fbf67cc.chunk.js": "/apps/home/static/js/5.6fbf67cc.chunk.js",
+    "index.html": "/apps/home/index.html",
+    "static/js/2.f851ad99.chunk.js.LICENSE.txt": "/apps/home/static/js/2.f851ad99.chunk.js.LICENSE.txt",
+    "static/media/code-analysis.c3673b7d.svg": "/apps/home/static/media/code-analysis.c3673b7d.svg",
+    "static/media/cra-logo.2966aaf8.svg": "/apps/home/static/media/cra-logo.2966aaf8.svg",
+    "static/media/css.40ed3413.svg": "/apps/home/static/media/css.40ed3413.svg",
+    "static/media/instant-feedback.2064b751.svg": "/apps/home/static/media/instant-feedback.2064b751.svg",
+    "static/media/intl.ecea2448.svg": "/apps/home/static/media/intl.ecea2448.svg",
+    "static/media/new-window.dbee5aef.svg": "/apps/home/static/media/new-window.dbee5aef.svg",
+    "static/media/plus-sign.0c2912ca.svg": "/apps/home/static/media/plus-sign.0c2912ca.svg",
+    "static/media/react.3a03708e.svg": "/apps/home/static/media/react.3a03708e.svg",
+    "static/media/300.css": "/apps/home/static/media/roboto-vietnamese-300-normal.af9afdc1.woff2",
+    "static/media/400.css": "/apps/home/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2",
+    "static/media/500.css": "/apps/home/static/media/roboto-vietnamese-500-normal.b8e494da.woff2",
+    "static/media/700.css": "/apps/home/static/media/roboto-vietnamese-700-normal.3096f18a.woff2",
+    "static/media/route.13e90fca.svg": "/apps/home/static/media/route.13e90fca.svg",
+    "static/media/rp-logo.1e68e14e.svg": "/apps/home/static/media/rp-logo.1e68e14e.svg",
+    "static/media/scaffolding.832cd2d8.svg": "/apps/home/static/media/scaffolding.832cd2d8.svg",
+    "static/media/seo.cb59987d.svg": "/apps/home/static/media/seo.cb59987d.svg",
+    "static/media/star.8e5c59a5.svg": "/apps/home/static/media/star.8e5c59a5.svg",
+    "static/media/state.989a2f07.svg": "/apps/home/static/media/state.989a2f07.svg",
+    "static/media/ts.c750cb9e.svg": "/apps/home/static/media/ts.c750cb9e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88da3433.js",
+    "static/css/2.f9a148a1.chunk.css",
+    "static/js/2.f851ad99.chunk.js",
+    "static/js/main.a6d0b821.chunk.js"
+  ]
+}
