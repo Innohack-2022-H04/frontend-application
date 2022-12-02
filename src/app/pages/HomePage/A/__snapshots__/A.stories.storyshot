@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Pages/HomePage/A Default 1`] = `
+<a
+  className="css-1b4qyvh-A ez4ueys0"
+>
+  &lt;a&gt; Link
+</a>
+`;

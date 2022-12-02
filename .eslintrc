@@ -1,0 +1,77 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb-typescript-prettier"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint", "testing-library", "jest-dom"],
+  "settings": {
+    "import/resolver": {
+      "typescript": {} // this loads <rootdir>/tsconfig.json to eslint
+    }
+  },
+  "ignorePatterns": ["craco.config.js"],
+  "overrides": [
+    {
+      "files": ["**/*.stories.*", "src/storybook.test.ts"],
+      "rules": {
+        "import/no-anonymous-default-export": "off",
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            "devDependencies": ["**/*.stories.tsx", "src/storybook.test.ts"]
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)"
+      ],
+      "extends": [
+        "plugin:testing-library/react",
+        "plugin:jest-dom/recommended"
+      ],
+      "rules": {
+        "testing-library/no-manual-cleanup": "error",
+        "testing-library/no-unnecessary-act": "warn",
+        "testing-library/prefer-user-event": "warn",
+        "testing-library/no-wait-for-snapshot": "error",
+        "testing-library/no-render-in-setup": "error",
+        "testing-library/no-wait-for-empty-callback": "error",
+        "testing-library/prefer-explicit-assert": "error",
+        "testing-library/prefer-presence-queries": "error",
+        "testing-library/prefer-screen-queries": "error",
+        "testing-library/prefer-wait-for": "error"
+      }
+    },
+    {
+      "files": ["**/*.[jt]s?(x)"],
+      "rules": {
+        //error"
+        "@typescript-eslint/ban-types": "off",
+        "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/no-empty-interface": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-props-no-spreading": "off",
+        "import/prefer-default-export": "off",
+        "no-underscore-dangle": "off",
+        "no-param-reassign": "off",
+        "no-nested-ternary": "off",
+        //warning
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off"
+      }
+    }
+  ]
+}

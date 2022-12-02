@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Link Default 1`] = `
+<a
+  className="css-1vdzsf8-Link e1trbqiy0"
+  href=""
+  onClick={[Function]}
+  originalStoryFn={[Function]}
+>
+  Router Link
+</a>
+`;

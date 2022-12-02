@@ -1,0 +1,155 @@
+{
+  "name": "rb-playground",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "11.4.0",
+    "@emotion/styled": "11.3.0",
+    "@fontsource/roboto": "4.5.0",
+    "@mui/icons-material": "5.0.1",
+    "@mui/lab": "5.0.0-alpha.48",
+    "@mui/material": "5.0.1",
+    "@reduxjs/toolkit": "1.6.0",
+    "@testing-library/jest-dom": "5.14.1",
+    "@testing-library/react": "12.0.0",
+    "history": "4.10.1",
+    "lodash": "4.17.21",
+    "react": "17.0.2",
+    "react-app-polyfill": "2.0.0",
+    "react-dom": "17.0.2",
+    "react-helmet-async": "1.0.9",
+    "react-redux": "7.2.4",
+    "react-router-dom": "5.2.0",
+    "react-test-renderer": "17.0.2",
+    "redux-injectors": "1.3.0",
+    "redux-saga": "1.1.3",
+    "sanitize.css": "12.0.1",
+    "web-vitals": "2.1.0",
+    "whatwg-fetch": "3.6.2"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject",
+    "test:generators": "ts-node --project=./internals/ts-node.tsconfig.json ./internals/testing/generators/test-generators.ts",
+    "start:prod": "yarn run build && serve -s build",
+    "checkTs": "tsc --noEmit",
+    "eslint": "eslint",
+    "lint": "yarn run eslint src",
+    "lint:fix": "yarn run eslint --fix src",
+    "lint:css": "stylelint src/**/*.{js,jsx,ts,tsx}",
+    "generate": "cross-env TS_NODE_PROJECT='./internals/ts-node.tsconfig.json' plop --plopfile internals/generators/plopfile.ts",
+    "prettify": "prettier --write",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public",
+    "prepare": "husky install"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "npm": ">=7.10.0",
+    "node": ">=16.0.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix",
+      "stylelint"
+    ],
+    "*.{md,json}": [
+      "prettier --write"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/**/*/*.d.ts",
+      "!src/**/*/Loadable.{js,jsx,ts,tsx}",
+      "!src/**/*/messages.ts",
+      "!src/**/*/types.ts",
+      "!src/index.tsx"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    }
+  },
+  "devDependencies": {
+    "@craco/craco": "6.2.0",
+    "@emotion/babel-plugin": "11.3.0",
+    "@react-theming/storybook-addon": "1.1.1",
+    "@storybook/addon-actions": "6.3.4",
+    "@storybook/addon-essentials": "6.3.4",
+    "@storybook/addon-links": "6.3.4",
+    "@storybook/addon-storyshots": "6.3.4",
+    "@storybook/node-logger": "6.3.4",
+    "@storybook/preset-create-react-app": "3.2.0",
+    "@storybook/react": "6.3.4",
+    "@types/jest": "26.0.24",
+    "@types/node": "16.3.1",
+    "@types/react": "17.0.14",
+    "@types/react-dom": "17.0.9",
+    "@types/react-redux": "7.1.18",
+    "@types/react-router-dom": "5.1.8",
+    "@types/react-test-renderer": "17.0.1",
+    "@types/rimraf": "3.0.1",
+    "@types/shelljs": "0.8.9",
+    "@types/testing-library__jest-dom": "5.14.0",
+    "@types/webpack": "4.41.22",
+    "@types/webpack-env": "1.15.2",
+    "@typescript-eslint/eslint-plugin": "5.45.0",
+    "@typescript-eslint/parser": "5.45.0",
+    "chalk": "4.1.1",
+    "craco-alias": "3.0.1",
+    "cross-env": "7.0.3",
+    "eslint": "7.30.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-airbnb-typescript-prettier": "4.2.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-import-resolver-typescript": "2.4.0",
+    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-jest-dom": "3.9.0",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-react": "7.24.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-testing-library": "4.9.0",
+    "husky": "7.0.1",
+    "inquirer": "8.1.1",
+    "inquirer-directory": "2.2.0",
+    "lint-staged": "11.0.0",
+    "node-plop": "0.26.2",
+    "plop": "2.7.4",
+    "postcss-safe-parser": "4.0.2",
+    "prettier": "2.3.2",
+    "react-scripts": "4.0.3",
+    "rimraf": "3.0.2",
+    "serve": "12.0.0",
+    "shelljs": "0.8.4",
+    "storybook-react-router": "1.0.8",
+    "stylelint": "13.13.1",
+    "stylelint-config-recommended": "5.0.0",
+    "ts-node": "10.1.0",
+    "tsconfig-paths-webpack-plugin": "3.5.1",
+    "typescript": "4.3.5",
+    "webpack-merge": "5.8.0"
+  },
+  "resolutions": {
+    "babel-loader": "8.1.0",
+    "react-scripts/postcss-safe-parser": "5.0.2"
+  }
+}
