@@ -1,7 +1,7 @@
 {
   "name": "rb-playground",
   "version": "0.1.0",
-  "homepage": "https://innohack-2022-h04.github.io/frontend-application/home",
+  "homepage": "https://innohack-2022-h04.github.io/frontend-application",
   "private": true,
   "dependencies": {
     "@emotion/react": "11.4.0",

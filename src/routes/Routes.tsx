@@ -7,7 +7,7 @@ function Routes() {
   return (
     <Switch>
       <Route exact path={RouteEnum.HOME.path} component={HomePage} />
-      <Route exact path={RouteEnum.FLIGHT.path} component={HomePage} />
+      <Route exact path={RouteEnum.FLIGHT.path} component={NotFoundPage} />
       {/* 
           ^^^ Insert new Route ABOVE ^^^
           - switch will render the first child matches the location, therefore, the following route need to be place last

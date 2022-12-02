@@ -7,7 +7,7 @@
  */
 
 import { Helmet } from 'react-helmet-async';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import Layout from 'layout';
 import { GlobalStyle } from 'styles/global-styles';
@@ -16,7 +16,7 @@ import Routes from 'routes/Routes';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Helmet
         titleTemplate="%s - React Boilerplate"
         defaultTitle="React Boilerplate"
@@ -32,7 +32,7 @@ function App() {
         <Routes />
       </Layout>
       <GlobalStyle />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default App;
